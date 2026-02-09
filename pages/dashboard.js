@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import { database } from "../lib/fire"; // Pastikan path ini benar
+import { database } from "../lib/db"; // Pastikan path ini benar
 import { ref, onValue, update } from "firebase/database";
 
 export default function Dashboard() {
