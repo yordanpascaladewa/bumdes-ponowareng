@@ -6,6 +6,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // Tambahan animasi biar watermark & logo gerak
       animation: {
         'bounce-slow': 'bounce-slow 3s infinite',
       },

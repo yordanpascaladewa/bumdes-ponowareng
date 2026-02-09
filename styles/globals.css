@@ -2,11 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Tambahan animasi custom */
-@keyframes bounce-slow {
-  0%, 100% { transform: translateY(-5%); }
-  50% { transform: translateY(5%); }
+/* === ANIMASI CUSTOM === */
+@layer utilities {
+  /* Animasi bebek memantul pelan */
+  .animate-bounce-slow {
+    animation: bounce-slow 3s infinite;
+  }
+  
+  /* Cursor loading */
+  .cursor-wait {
+    cursor: wait;
+  }
 }
-.animate-bounce-slow {
-  animation: bounce-slow 3s infinite;
+
+/* Keyframes (Gerakan Animasi) */
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translateY(-10%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(10%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+/* === GLOBAL SETTINGS === */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+  /* Warna background default (jaga-jaga kalau gradient gagal load) */
+  background-color: #0f172a; 
+  color: white;
+}
+
+/* Biar input number gak ada panah atas-bawahnya (opsional) */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
