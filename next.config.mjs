@@ -2,11 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   eslint: {
-    // Abaikan error checking saat build (biar lolos)
+    // PENTING: Abaikan error checking saat build (biar lolos)
     ignoreDuringBuilds: true,
   },
   typescript: {
-    // Abaikan error typescript juga (jaga-jaga)
+    // Jaga-jaga kalau ada error typescript, abaikan juga
     ignoreBuildErrors: true,
   },
 };
