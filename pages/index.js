@@ -17,7 +17,7 @@ export default function Login() {
     // Simulasi loading sebentar biar keren
     setTimeout(() => {
         // PASSWORD SEMENTARA: admin / bumdes123
-        if (username === 'admin' && password === 'bumdes123') {
+        if (username === 'ponowareng' && password === '12345') {
           localStorage.setItem('isLoggedIn', 'true');
           router.push('/dashboard');
         } else {
@@ -30,7 +30,7 @@ export default function Login() {
   return (
     <>
       <Head>
-        <title>Login Smart Feeder - KKN Undip</title>
+        <title>Login Sistem</title>
         <meta name="theme-color" content="#0f172a" />
       </Head>
       {/* Background dengan Gradient Halus */}
