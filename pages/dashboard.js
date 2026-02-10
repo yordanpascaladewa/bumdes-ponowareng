@@ -118,14 +118,14 @@ export default function Dashboard() {
           <div className="grid grid-cols-2 gap-4">
             <div className={`p-4 rounded-2xl border flex flex-col items-center ${dataAlat?.pakan_pagi === 'SUDAH' ? 'bg-amber-500/10 border-amber-500/50' : 'bg-slate-800/50 border-slate-700'}`}>
                <span className="text-2xl mb-1">☀️</span>
-               <span className="text-xs font-bold text-slate-400">09:00 WIB</span>
+               <span className="text-xs font-bold text-slate-400">06:00 WIB</span>
                <span className={`text-sm font-black mt-1 ${dataAlat?.pakan_pagi === 'SUDAH' ? 'text-amber-400' : 'text-slate-500'}`}>
                  {dataAlat?.pakan_pagi || "BELUM"}
                </span>
             </div>
              <div className={`p-4 rounded-2xl border flex flex-col items-center ${dataAlat?.pakan_sore === 'SUDAH' ? 'bg-blue-500/10 border-blue-500/50' : 'bg-slate-800/50 border-slate-700'}`}>
                <span className="text-2xl mb-1">☁️</span>
-               <span className="text-xs font-bold text-slate-400">15:00 WIB</span>
+               <span className="text-xs font-bold text-slate-400">16:00 WIB</span>
                <span className={`text-sm font-black mt-1 ${dataAlat?.pakan_sore === 'SUDAH' ? 'text-blue-400' : 'text-slate-500'}`}>
                  {dataAlat?.pakan_sore || "BELUM"}
                </span>
