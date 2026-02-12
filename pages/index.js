@@ -104,7 +104,7 @@ export default function Login() {
                Created with 💙 by
              </p>
              <p className="text-[11px] text-slate-400 font-black tracking-widest uppercase mt-2 bg-gradient-to-r from-slate-400 to-slate-500 bg-clip-text text-transparent">
-               TIM 1 KKN KELOMPOK 7 Desa Ponowareng
+               TIM 1 KKN KELOMPOK 71 Desa Ponowareng
              </p>
              <p className="text-[10px] text-blue-600/60 font-bold tracking-[0.2em] uppercase mt-1.5">
                Universitas Diponegoro 2026

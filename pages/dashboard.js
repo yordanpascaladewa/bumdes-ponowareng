@@ -162,7 +162,7 @@ export default function Dashboard() {
         {/* WATERMARK */}
         <div className="mt-8 pt-6 border-t border-slate-800/50 text-center pb-4">
              <p className="text-[10px] text-slate-500 font-bold uppercase">Created with 💙 by</p>
-             <p className="text-[11px] text-slate-400 font-black uppercase mt-1">TIM 1 KKN KELOMPOK 7 Desa Ponowareng</p>
+             <p className="text-[11px] text-slate-400 font-black uppercase mt-1">TIM 1 KKN KELOMPOK 71 Desa Ponowareng</p>
              <p className="text-[10px] text-blue-600/60 font-bold uppercase mt-1">Universitas Diponegoro 2026</p>
         </div>
 
