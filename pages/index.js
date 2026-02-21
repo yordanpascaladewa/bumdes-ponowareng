@@ -99,16 +99,10 @@ export default function Login() {
           </div>
 
           {/* WATERMARK KKN */}
-          <div className="mt-12 pt-8 border-t border-slate-800/50 text-center relative z-10">
-             <p className="text-[10px] text-slate-500 font-bold tracking-wider uppercase leading-relaxed">
-               Created with 💙 by
-             </p>
-             <p className="text-[11px] text-slate-400 font-black tracking-widest uppercase mt-2 bg-gradient-to-r from-slate-400 to-slate-500 bg-clip-text text-transparent">
-               TIM 1 KKN KELOMPOK 71 Desa Ponowareng
-             </p>
-             <p className="text-[10px] text-blue-600/60 font-bold tracking-[0.2em] uppercase mt-1.5">
-               Universitas Diponegoro 2026
-             </p>
+        <div className="mt-8 pt-6 text-center pb-8 space-y-1.5 opacity-60 hover:opacity-100 transition-opacity">
+             <p className="text-[9px] text-slate-400 font-bold uppercase tracking-[0.3em]">Built with <span className="text-rose-500 animate-pulse">❤️</span> by</p>
+             <p className="text-[11px] text-white font-black uppercase tracking-widest">Tim 1 Kelompok 71 KKN UNDIP Desa Ponowareng</p>
+             <p className="text-[9px] text-indigo-400 font-bold uppercase tracking-[0.4em]">Universitas Diponegoro • 2026</p>
           </div>
 
         </div>

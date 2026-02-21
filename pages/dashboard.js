@@ -184,8 +184,8 @@ export default function Dashboard() {
         {/* WATERMARK LINTAS JURUSAN */}
         <div className="mt-8 pt-6 text-center pb-8 space-y-1.5 opacity-60 hover:opacity-100 transition-opacity">
              <p className="text-[9px] text-slate-400 font-bold uppercase tracking-[0.3em]">Built with <span className="text-rose-500 animate-pulse">❤️</span> by</p>
-             <p className="text-[11px] text-white font-black uppercase tracking-widest">Tim 1 KKN UNDIP Desa Ponowareng</p>
-             <p className="text-[9px] text-indigo-400 font-bold uppercase tracking-[0.4em]">Lintas Jurusan • 2026</p>
+             <p className="text-[11px] text-white font-black uppercase tracking-widest">Tim 1 Kelompok 71 KKN UNDIP Desa Ponowareng</p>
+             <p className="text-[9px] text-indigo-400 font-bold uppercase tracking-[0.4em]">Universitas Diponegoro • 2026</p>
         </div>
 
       </div>
